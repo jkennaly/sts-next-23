@@ -1,0 +1,22 @@
+Basic energy steps to discover:
+xApply
+xTransmit
+Harness
+(Transduce)
+(Store -> Release)
+
+
+Observe a rock to learn 
+    Tools
+    Use action
+
+Strike a rock with another rock to learn 
+    Mechanical force
+    Apply Energy
+
+Strike a tree with a rock using Apply Energy to create 
+    1 [stick]
+
+Invent a [hammer] by attaching a rock to a [stick] to learn
+    Transmit Energy
+
