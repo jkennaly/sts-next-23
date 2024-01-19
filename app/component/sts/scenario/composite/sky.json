@@ -1,0 +1,41 @@
+{
+	"value": "Sky",
+	"type": "ShortText",
+	"tag": "Sky Composite",
+	"name": "sky",
+	"scale": 4,
+	"located": {
+		"institute": [0, 0, 0]
+	},
+	"maxLocationScale": 7,
+	"scaleFactor": 1,
+    "composition": [
+        ["sun", 100],
+        ["cloud", 500],
+        ["moon", 40],
+        ["star", 30],
+        ["rain", 3],
+        ["snow", 2],
+        ["lightning", 2],
+        ["fog", 2],
+        ["smoke", 1],
+        ["dust", 1],
+        ["ash", 1],
+        ["rainbow", 2],
+        ["aurora", 1],
+        ["bird", 5]
+    ],
+	"profiles": [
+		["electrical", {
+            "harness": 0,
+            "store": 0,
+            "release": 0,
+            "transmit": 0,
+            "transduce": 0,
+            "apply": 0,
+            "diffuse": 0.01
+        }]
+	],
+	"assets": {},
+	"records": []
+}

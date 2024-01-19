@@ -28,7 +28,7 @@ function Strike (id, opts = {}) {
 	}
 
 	this.action = ActionClass.prototype.actionFactory.call(this, {
-		sourceEffect: 'Nothing',
+		sourceEffect: 'Striker',
 		targetEffect: 'Struck',
 		sourceConnectionName: 'striker',
 		targetConnectionName: 'struck'

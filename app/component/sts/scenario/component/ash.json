@@ -1,0 +1,28 @@
+{
+	"value": "ash",
+	"type": "ShortText",
+	"tag": "Ash Component",
+	"name": "Ash",
+	"located": {
+		"institute": [0, 0, 0]
+	},
+	"maxLocationScale": 4,
+	"scaleFactor": 1,
+	"profiles": [
+		["chemical", {
+            "harness": 0,
+            "store": 0,
+            "release": 0,
+            "transmit": 0,
+            "transduce": 0,
+            "apply": 0,
+            "diffuse": 0.5
+        }]
+
+	],
+    "projections": [
+        ["biological", -0.75]
+
+    ],
+	"records": []
+}

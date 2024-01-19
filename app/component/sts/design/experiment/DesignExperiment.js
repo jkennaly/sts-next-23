@@ -5,7 +5,31 @@ import ExperimentalMaterialSelector from "../../common/experiment/material/Exper
 import ExperimentalHypothesisSelector from "../../common/experiment/hypothesis/ExperimentalHypothesisSelector"
 import ExperimentalActionSelector from "../../common/experiment/action/ExperimentalActionSelector"
 
+import {Experiment} from "app/sts"
+
+
 export default function DesignExperiment() {
+
+
+
+  const sels = Array.from(document.querySelectorAll('select'))
+  const expOpts = sels.reduce((acc, sel) => {
+    acc[sel.name] = sel.value
+    return acc
+  }, {})
+  let exp 
+    try{
+      exp = (() => new Experiment(expOpts))()
+
+    } catch (e) {
+    
+    }
+
+
+  const handleSave = () => {
+    
+  }
+
   return (
     <div className="space-y-10 divide-y divide-gray-900/10">
       <div className="grid grid-cols-1 gap-x-8 gap-y-8 md:grid-cols-3">
@@ -46,7 +70,8 @@ export default function DesignExperiment() {
               Cancel
             </button>
             <button
-              type="submit"
+              type="button"
+              onClick={handleSave}
               className="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
               Save

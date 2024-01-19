@@ -12,8 +12,6 @@ export default function ExperimentalActionSelector() {
 
   const researcher = useSelector(selectResearcher)
 
-  console.log('researcher', researcher)
-
   const handleActorChange = (e) => {
     const src = e.target.value
     setActor(src)

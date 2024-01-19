@@ -2,19 +2,22 @@ import { useAppDispatch as useDispatch } from "@/lib/hooks";
 import { setGameState } from "@/lib/actions";
 
 import Researcher from "./store/entity/player/Researcher";
+import { Experiment } from "./store/research/Experiment";
 import GetResearcher from "@/app/sts/store/action/game/GetResearcher"
+
 
 export { 
     GetResearcher,
-    Researcher
+    Researcher,
+    Experiment
 }
-
-const seed = 'ZERO'
-const archive = []
 
 //this will function as a game engine, accepting actions into a queue and executing them in order
 
 const actionQueue = [];
+
+const seed = 'ZERO'
+const archive = []
 
 export const queueAction = (action) => {
 
@@ -32,6 +35,7 @@ export const updateState = (state) => {
             newState = action.state(newState);
         }
     })
+    actionQueue.length = 0;
     archive.push(JSON.stringify(newState));
     return newState;
     

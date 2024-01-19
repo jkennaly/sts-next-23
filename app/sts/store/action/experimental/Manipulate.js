@@ -27,7 +27,7 @@ function Manipulate (id, opts = {}) {
 	}
 
 	this.action = ActionClass.prototype.actionFactory.call(this, {
-		sourceEffect: 'Nothing',
+		sourceEffect: 'Manipulater',
 		targetEffect: 'Manipulated',
 		sourceConnectionName: 'manipulater',
 		targetConnectionName: 'manipulated'

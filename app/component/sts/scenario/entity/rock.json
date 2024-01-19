@@ -1,0 +1,24 @@
+{
+	"value": "Rock",
+	"type": "ShortText",
+	"tag": "Rock Discrete Entity",
+	"name": "rock",
+	"scale": 9,
+	"senses": [],
+	"located": {
+		"institute": [0, 0, 0]
+	},
+	"maxLocationScale": 8,
+	"scaleFactor": 2,
+    "composition": [
+        {
+            "stone": 1
+        }
+    ],
+	"profiles": [
+		["electrical", {}], 
+		["mechanical", {}]
+	],
+	"assets": {},
+	"records": []
+}

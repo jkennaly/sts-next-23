@@ -1,0 +1,22 @@
+{
+	"value": "stone",
+	"type": "ShortText",
+	"tag": "Stone Component",
+	"name": "Stone",
+	"located": {
+		"institute": [0, 0, 0]
+	},
+	"maxLocationScale": 4,
+	"scaleFactor": 1,
+	"profiles": [
+		["mechanical", {
+            "strength": 1,
+            "toughness": 1
+        }]
+	],
+    "projections": [
+        ["electrical", -0.25],
+        ["chemical", -0.75]
+    ],
+	"records": []
+}

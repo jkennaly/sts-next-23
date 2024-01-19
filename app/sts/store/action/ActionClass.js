@@ -12,6 +12,10 @@ import {Player} from '../effect/links/Player'
 import {Relocate} from '../effect/relocate/Relocate'
 import {Reposition} from '../effect/reposition/Reposition'
 import {Nothing} from '../effect/nothing/Nothing'
+import {Struck} from '../effect/research/Struck'
+import {Striker} from '../effect/research/Striker'
+import {Manipulated} from '../effect/research/Manipulated'
+import {Manipulater} from '../effect/research/Manipulater'
 
 function ActionClass (id, opts = {}) {
 	Store.call(this, id, opts)
@@ -24,6 +28,7 @@ function ActionClass (id, opts = {}) {
 	}
 	this.conferredBy = opts.conferredBy
 }
+
 ActionClass.prototype = Object.create(Store.prototype)
 
 ActionClass.prototype.effectInterlock = function(effects) {
@@ -35,6 +40,10 @@ ActionClass.prototype.effects = {
 	LinkAvatar: Avatar,
 	Relocate: Relocate,
 	Reposition: Reposition,
+	Struck: Struck,
+	Striker: Striker,
+	Manipulated: Manipulated,
+	Manipulater: Manipulater,
 	Nothing: Nothing
 }
 

@@ -1,0 +1,35 @@
+{
+	"value": "plasma",
+	"type": "ShortText",
+	"tag": "Plasma Component",
+	"name": "Plasma",
+	"located": {
+		"institute": [0, 0, 0]
+	},
+	"maxLocationScale": 4,
+	"scaleFactor": 1,
+	"profiles": [
+		["electrical", {
+            "harness": 0,
+            "store": 0,
+            "release": 1,
+            "transmit": 0,
+            "transduce": 0.8,
+            "apply": 1,
+            "diffuse": 0.5
+        }],
+		["chemical", {
+            "harness": 0,
+            "store": 0,
+            "release": 0.25,
+            "transmit": 0,
+            "transduce": 0.8,
+            "apply": 0.01,
+            "diffuse": 0
+        }]
+
+	],
+    "projections": [
+    ],
+	"records": []
+}
