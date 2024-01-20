@@ -1,0 +1,27 @@
+{
+	"value": "water",
+	"type": "ShortText",
+	"tag": "Water Component",
+	"name": "Liquid Water",
+	"located": {
+		"institute": [0, 0, 0]
+	},
+	"maxLocationScale": 9,
+	"scaleFactor": 1,
+	"profiles": [
+		["chemical", {
+            "harness": 0,
+            "store": 0,
+            "release": 0,
+            "transmit": 0,
+            "transduce": 0,
+            "apply": 0,
+            "diffuse": 0.75
+        }]
+	],
+    "projections": [
+        ["biological", -0.25]
+
+    ],
+	"records": []
+}

@@ -11,16 +11,24 @@
 	"profiles": [
 		["electrical", {
             "harness": 0.1,
-            "store": 0.8,
+            "store": 0.01,
             "release": 0.9,
             "transmit": 0.1,
-            "transduce": 0,
+            "transduce": 0.8,
             "apply": 0,
-            "diffuse": 0
+            "diffuse": 0.9,
+            "signals": {
+                "encoding": 0.001,
+                "decoding": 1,
+                "transmit": 0.001,
+                "durability": 0.01,
+                "coherence": 0.001
+            }
         }]
 
 	],
     "projections": [
     ],
+    "notes":"This is not meant to be \"actual\" ether, but is the component that auroras and rainbows are made of.",
 	"records": []
 }

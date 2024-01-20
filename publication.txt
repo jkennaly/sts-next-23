@@ -1,0 +1,16 @@
+Player Motivation: Researcher loses focus with too many known but unpublished bits of knowledge.
+
+Publication Quality is dependent on the signal processing capabilities of the Devices used to create the publication.
+
+Publication Accuracy is determined by Researcher bits of knowledge that form the Theoretical Foundation.
+
+The Theoretical Foundation is all the Foundational Theories that have been used to construct the Publication.
+
+There are three types of Publications: Results, Theories, and Blueprints.
+
+Blueprints allow for construction of Devices. Blueprints do not contain their Theoretical Foundation. When a Device is contructed using a Blueprint, the constructor's Theoretical Foundation is used to determine the result.
+
+Results state values for bits of knowledge. This is presented by the results of one or more experiments. For each experiment, the same design must have been used. The design used must be included in the Result, along with the entire Theoretical Foundation used to create the design. In addition, Blueprints must be included for all Devices referenced in the design. Note: the Theoretical Foundation used to construct the devices is not included, only the Theoretical Foundation to design the experiment.
+
+Theories combine Results and their respective Theoretical Foundations into a new Theory that allows investigation of a higher Force Tier. The Accuracy and Power of the Theory are determined by the Accuracy of its Theoretical Foundation and the Power of its Results. The Accuracy of the Results used DOES NOT affect the Functional Accuracy of the Theory. Power is determined not only by the number of results, but by the density. The tighter the Results are packed, and the more Results there are, determine how much of the next tier is revealed by the Theory. But the Accuracy of the Theoretical Foundation determines which of the bits in the new tier are accurately described. The Theoretical Accuracy is the Accuracy used when the Theory is part of a Theoretical Foundation, and in this case the Accuracy of the Results is combined with the Theoretical Foundation's Accuracy to determine the Theoretical Accuracy.
+

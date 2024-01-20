@@ -5,3 +5,11 @@ Transmit
 Apply
 //
 (Diffuse)
+//
+(Signals)
+::encoding
+::decoding
+::transmit
+::durability
+::coherence
+//

@@ -20,3 +20,6 @@ Strike a tree with a rock using Apply Energy to create
 Invent a [hammer] by attaching a rock to a [stick] to learn
     Transmit Energy
 
+Advanced discoveries:
+Diffusion
+Signal Processing

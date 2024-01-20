@@ -1,0 +1,65 @@
+{
+	"value": "plant",
+	"type": "ShortText",
+	"tag": "Plant Component",
+	"name": "Plant",
+	"located": {
+		"institute": [0, 0, 0]
+	},
+	"maxLocationScale": 4,
+	"scaleFactor": 1,
+	"profiles": [
+		["biological", {
+            "harness": 1,
+            "store": 0.8,
+            "release": 0.1,
+            "transmit": 0.1,
+            "transduce": 0.5,
+            "apply": 0.01,
+            "diffuse": 0.4,
+            "signals": {
+                "encoding": 0.2,
+                "decoding": 0.9,
+                "transmit": 0.01,
+                "durability": 0.9,
+                "coherence": 0.1
+            }
+        }],
+		["chemical", {
+            "harness": 0.1,
+            "store": 0.1,
+            "release": 0.01,
+            "transmit": 0.01,
+            "transduce": 0.5,
+            "apply": 0.01,
+            "diffuse": 0.4,
+            "signals": {
+                "encoding": 0,
+                "decoding": 0,
+                "transmit": 0,
+                "durability": 0.9,
+                "coherence": 0
+            }
+        }],
+		["mechanical", {
+            "harness": 0.01,
+            "store": 0.001,
+            "release": 0.1,
+            "transmit": 0.1,
+            "transduce": 0.1,
+            "apply": 1,
+            "diffuse": 1,
+            "signals": {
+                "encoding": 0,
+                "decoding": 0,
+                "transmit": 0,
+                "durability": 0,
+                "coherence": 0
+            }
+        }]
+        
+	],
+    "projections": [
+    ],
+	"records": []
+}

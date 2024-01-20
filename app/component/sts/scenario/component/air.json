@@ -1,0 +1,68 @@
+{
+	"value": "air",
+	"type": "ShortText",
+	"tag": "Air Component",
+	"name": "Air",
+	"located": {
+		"institute": [0, 0, 0]
+	},
+	"maxLocationScale": 9,
+	"scaleFactor": 1,
+	"profiles": [
+		["electrical", {
+            "harness": 0,
+            "store": 0,
+            "release": 0,
+            "transmit": 0.1,
+            "transduce": 0.8,
+            "apply": 0.8,
+            "diffuse": 0.2,
+            "signals": {
+                "encoding": 0.001,
+                "decoding": 1,
+                "transmit": 0.001,
+                "durability": 0.01,
+                "coherence": 0.001
+            }
+        }],
+
+		["chemical", {
+            "harness": 0,
+            "store": 0.1,
+            "release": 0,
+            "transmit": 0.1,
+            "transduce": 0,
+            "apply": 0.8,
+            "diffuse": 0.1,
+            "signals": {
+                "encoding": 0.1,
+                "decoding": 0,
+                "transmit": 0.01,
+                "durability": 0.01,
+                "coherence": 0.01
+            }
+        }],
+
+		["mechanical", {
+            "harness": 0.9,
+            "store": 0.1,
+            "release": 0.9,
+            "transmit": 0.8,
+            "transduce": 0,
+            "apply": 0.8,
+            "diffuse": 0.2,
+            "signals": {
+                "encoding": 0.9,
+                "decoding": 0.9,
+                "transmit": 0.5,
+                "durability": 0.0001,
+                "coherence": 0.1
+            }
+        }]
+
+	],
+    "projections": [
+    ],
+    "notes":"",
+	"records": []
+}

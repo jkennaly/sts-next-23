@@ -10,8 +10,20 @@
 	"scaleFactor": 1,
 	"profiles": [
 		["mechanical", {
-            "strength": 1,
-            "toughness": 1
+            "harness": 0.1,
+            "store": 0.8,
+            "release": 0.9,
+            "transmit": 0.1,
+            "transduce": 0,
+            "apply": 0,
+            "diffuse": 0,
+            "signals": {
+                "encoding": 0.1,
+                "decoding": 1,
+                "transmit": 0.001,
+                "durability": 1,
+                "coherence": 0.001
+            }
         }]
 	],
     "projections": [

@@ -1,0 +1,34 @@
+{
+	"value": "ice",
+	"type": "ShortText",
+	"tag": "Ice Component",
+	"name": "Ice",
+	"located": {
+		"institute": [0, 0, 0]
+	},
+	"maxLocationScale": 5,
+	"scaleFactor": 1,
+	"profiles": [
+		["mechanical", {
+            "harness": 0.1,
+            "store": 0.8,
+            "release": 0.9,
+            "transmit": 0.1,
+            "transduce": 0,
+            "apply": 0,
+            "diffuse": 0,
+            "signals": {
+                "encoding": 0.001,
+                "decoding": 0.01,
+                "transmit": 0.001,
+                "durability": 0.01,
+                "coherence": 0.001
+            }
+        }]
+	],
+    "projections": [
+        ["electrical", -1],
+        ["chemical", -0.75]
+    ],
+	"records": []
+}
