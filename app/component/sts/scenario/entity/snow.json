@@ -1,0 +1,24 @@
+{
+	"value": "snow",
+	"type": "ShortText",
+	"tag": "Snow Diffuse Entity",
+	"name": "Snow",
+	"scale": 9,
+	"senses": [],
+	"located": {
+		"institute": [0, 0, 0]
+	},
+	"maxLocationScale": 8,
+	"scaleFactor": 2,
+    "composition": [
+        {
+            "ice": 1,
+            "air": 9
+        }
+    ],
+	"profiles": [
+		["biological", 0.2]
+	],
+	"assets": {},
+	"records": []
+}

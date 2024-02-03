@@ -1,0 +1,24 @@
+{
+	"value": "dust",
+	"type": "ShortText",
+	"tag": "Dust Diffuse Entity",
+	"name": "Dust",
+	"scale": 9,
+	"senses": [],
+	"located": {
+		"institute": [0, 0, 0]
+	},
+	"maxLocationScale": 8,
+	"scaleFactor": 2,
+    "composition": [
+        {
+            "dust": 1,
+            "air": 9
+        }
+    ],
+	"profiles": [
+		["chemical", 0.5]
+	],
+	"assets": {},
+	"records": []
+}

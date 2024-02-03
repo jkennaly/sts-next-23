@@ -1,0 +1,24 @@
+{
+	"value": "bird",
+	"type": "ShortText",
+	"tag": "Bird Diffuse Entity",
+	"name": "Bird",
+	"scale": 9,
+	"senses": [],
+	"located": {
+		"institute": [0, 0, 0]
+	},
+	"maxLocationScale": 8,
+	"scaleFactor": 2,
+    "composition": [
+        {
+            "animal": 1
+        }
+    ],
+	"profiles": [
+		["biological", 1],
+        ["mechanical", 0.1]
+	],
+	"assets": {},
+	"records": []
+}

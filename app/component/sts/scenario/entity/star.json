@@ -1,0 +1,24 @@
+{
+	"value": "Star",
+	"type": "ShortText",
+	"tag": "Star Discrete Entity",
+	"name": "star",
+	"scale": 9,
+	"senses": [],
+	"located": {
+		"institute": [0, 0, 0]
+	},
+	"maxLocationScale": 8,
+	"scaleFactor": 2,
+    "composition": [
+        {
+            "plasma": 1
+        }
+    ],
+	"profiles": [
+		["electrical", {}], 
+		["chemical", {}]
+	],
+	"assets": {},
+	"records": []
+}

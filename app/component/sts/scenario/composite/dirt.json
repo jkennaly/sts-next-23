@@ -1,0 +1,50 @@
+{
+	"value": "dirt",
+	"type": "ShortText",
+	"tag": "Dirt Composite",
+	"name": "Dirt",
+	"scale": 4,
+	"located": {
+		"institute": [0, 0, 0]
+	},
+	"maxLocationScale": 7,
+	"scaleFactor": 1,
+    "composition": [
+        ["bird", 2],
+        ["tree", 1],
+        ["grassPlant", 1],
+        ["rock", 1],
+        ["dirt", 100]
+    ],
+	"profiles": [
+		["electrical", {
+            "harness": 0,
+            "store": 0,
+            "release": 0,
+            "transmit": 0,
+            "transduce": 0,
+            "apply": 0,
+            "diffuse": 1
+        }],
+        ["mechanical", {
+            "harness": 0,
+            "store": 0,
+            "release": 0,
+            "transmit": 0.8,
+            "transduce": 0,
+            "apply": 0.4,
+            "diffuse": 1
+        }],
+        ["chemical", {
+            "harness": 0,
+            "store": 0,
+            "release": 0,
+            "transmit": 0,
+            "transduce": 0,
+            "apply": 0,
+            "diffuse": 0.6
+        }]
+	],
+	"assets": {},
+	"records": []
+}

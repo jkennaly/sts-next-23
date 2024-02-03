@@ -1,0 +1,45 @@
+{
+	"value": "soil",
+	"type": "ShortText",
+	"tag": "Soil Component",
+	"name": "Soil",
+	"located": {
+		"institute": [0, 0, 0]
+	},
+	"maxLocationScale": 9,
+	"scaleFactor": 1,
+	"profiles": [
+		["electrical", {
+            "harness": 0,
+            "store": 0,
+            "release": 0,
+            "transmit": 0,
+            "transduce": 0,
+            "apply": 0,
+            "diffuse": 1
+        }],
+        ["mechanical", {
+            "harness": 0,
+            "store": 0,
+            "release": 0,
+            "transmit": 0.8,
+            "transduce": 0,
+            "apply": 0.4,
+            "diffuse": 1
+        }],
+        ["chemical", {
+            "harness": 0,
+            "store": 0,
+            "release": 0,
+            "transmit": 0,
+            "transduce": 0,
+            "apply": 0,
+            "diffuse": 0.6
+        }]
+	],
+    "projections": [
+        ["biological", 0.25]
+
+    ],
+	"records": []
+}

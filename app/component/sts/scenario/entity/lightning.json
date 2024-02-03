@@ -1,0 +1,24 @@
+{
+	"value": "lightning",
+	"type": "ShortText",
+	"tag": "Lightning Diffuse Entity",
+	"name": "Lightning",
+	"scale": 6,
+	"senses": [],
+	"located": {
+		"institute": [0, 0, 0]
+	},
+	"maxLocationScale": 7,
+	"scaleFactor": 2,
+    "composition": [
+        {
+            "ether": 1
+        }
+    ],
+	"profiles": [
+		["electrical", 1],
+        ["mechanical", 0.3]
+	],
+	"assets": {},
+	"records": []
+}

@@ -1,0 +1,24 @@
+{
+	"value": "fog",
+	"type": "ShortText",
+	"tag": "Fog Diffuse Entity",
+	"name": "Fog",
+	"scale": 9,
+	"senses": [],
+	"located": {
+		"institute": [0, 0, 0]
+	},
+	"maxLocationScale": 8,
+	"scaleFactor": 2,
+    "composition": [
+        {
+            "vapor": 0.5,
+            "air": 9
+        }
+    ],
+	"profiles": [
+		["biological", 0.2]
+	],
+	"assets": {},
+	"records": []
+}

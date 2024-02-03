@@ -1,8 +1,8 @@
 {
-	"value": "Sun",
+	"value": "dirt",
 	"type": "ShortText",
-	"tag": "Sun Discrete Entity",
-	"name": "sun",
+	"tag": "Dirt Diffuse Entity",
+	"name": "Dirt",
 	"scale": 9,
 	"senses": [],
 	"located": {
@@ -12,12 +12,14 @@
 	"scaleFactor": 2,
     "composition": [
         {
-            "plasma": 1
+            "stone": 1,
+            "animal": 1,
+            "plant": 2,
+            "soil": 100
         }
     ],
 	"profiles": [
-		["electrical", {}], 
-		["chemical", {}]
+		["mechanical", {}]
 	],
 	"assets": {},
 	"records": []

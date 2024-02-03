@@ -1,0 +1,24 @@
+{
+	"value": "ash",
+	"type": "ShortText",
+	"tag": "Ash Diffuse Entity",
+	"name": "Ash",
+	"scale": 9,
+	"senses": [],
+	"located": {
+		"institute": [0, 0, 0]
+	},
+	"maxLocationScale": 8,
+	"scaleFactor": 2,
+    "composition": [
+        {
+            "ash": 1,
+            "air": 9
+        }
+    ],
+	"profiles": [
+		["biological", 0.5]
+	],
+	"assets": {},
+	"records": []
+}

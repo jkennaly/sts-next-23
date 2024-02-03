@@ -1,0 +1,25 @@
+{
+	"value": "aurora",
+	"type": "ShortText",
+	"tag": "Aurora Diffuse Entity",
+	"name": "Aurora",
+	"scale": 6,
+	"senses": [],
+	"located": {
+		"institute": [0, 0, 0]
+	},
+	"maxLocationScale": 7,
+	"scaleFactor": 2,
+    "composition": [
+        {
+            "ether": 1,
+            "vapor": 2,
+            "air": 4
+        }
+    ],
+	"profiles": [
+		["electrical", 0.9]
+	],
+	"assets": {},
+	"records": []
+}

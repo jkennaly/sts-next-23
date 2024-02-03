@@ -1,8 +1,8 @@
 {
-	"value": "Sun",
+	"value": "tree",
 	"type": "ShortText",
-	"tag": "Sun Discrete Entity",
-	"name": "sun",
+	"tag": "Tree Diffuse Entity",
+	"name": "Tree",
 	"scale": 9,
 	"senses": [],
 	"located": {
@@ -12,12 +12,12 @@
 	"scaleFactor": 2,
     "composition": [
         {
-            "plasma": 1
+            "plant": 1
         }
     ],
 	"profiles": [
-		["electrical", {}], 
-		["chemical", {}]
+		["biological", 1],
+        ["mechanical", 0.1]
 	],
 	"assets": {},
 	"records": []

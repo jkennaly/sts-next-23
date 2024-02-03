@@ -1,7 +1,7 @@
 
 
 import ExperimentalEnvironmentSelector from "app/component/sts/common/experiment/env/ExperimentalEnvironmentSelector"
-import ExperimentalMaterialSelector from "../../common/experiment/material/ExperimentalMaterialSelector"
+import ExperimentalFocusSelector from "../../common/experiment/focus/ExperimentalFocusSelector"
 import ExperimentalHypothesisSelector from "../../common/experiment/hypothesis/ExperimentalHypothesisSelector"
 import ExperimentalActionSelector from "../../common/experiment/action/ExperimentalActionSelector"
 
@@ -42,17 +42,17 @@ export default function DesignExperiment() {
         <ExperimentalEnvironmentSelector />
 
 <div className="px-4 sm:px-0">
-  <h2 className="text-base font-semibold leading-7 text-white-900">Material</h2>
+  <h2 className="text-base font-semibold leading-7 text-white-900">Focus</h2>
   <p className="mt-1 text-sm leading-6 text-white-600">
-    Select what to perform the experiment on.
+    The focus of the experiment is what the sensors will observe.
   </p>
 </div>
-<ExperimentalMaterialSelector />
+<ExperimentalFocusSelector />
 
 <div className="px-4 sm:px-0">
   <h2 className="text-base font-semibold leading-7 text-white-900">Action</h2>
   <p className="mt-1 text-sm leading-6 text-white-600">
-    What to do with the material.
+    What to do with the focus.
   </p>
 </div>
 <ExperimentalActionSelector />
