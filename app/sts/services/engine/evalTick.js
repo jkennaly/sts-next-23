@@ -22,7 +22,7 @@ function filterInPlace(a, condition, thisArg) {
 
 //import Place from '../../store/entity/place/Place'
 
-export default function (currentState = {}, actions, senses, scenario = {}) {
+export default function EvalTick(currentState = {}, actions, senses, scenario = {}) {
 	let newState = {}
 
 	newState.game = scenario.registry ? _.find(scenario.registry, so => so.name === 'game') : currentState.game

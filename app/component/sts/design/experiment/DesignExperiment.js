@@ -1,4 +1,4 @@
-
+'use client'
 
 import ExperimentalEnvironmentSelector from "app/component/sts/common/experiment/env/ExperimentalEnvironmentSelector"
 import ExperimentalFocusSelector from "../../common/experiment/focus/ExperimentalFocusSelector"
@@ -12,18 +12,18 @@ export default function DesignExperiment() {
 
 
 
-  const sels = Array.from(document.querySelectorAll('select'))
-  const expOpts = sels.reduce((acc, sel) => {
-    acc[sel.name] = sel.value
-    return acc
-  }, {})
-  let exp 
-    try{
-      exp = (() => new Experiment(expOpts))()
+  // const sels = Array.from(document.querySelectorAll('select'))
+  // const expOpts = sels.reduce((acc, sel) => {
+  //   acc[sel.name] = sel.value
+  //   return acc
+  // }, {})
+  // let exp 
+  //   try{
+  //     exp = (() => new Experiment(expOpts))()
 
-    } catch (e) {
+  //   } catch (e) {
     
-    }
+  //   }
 
 
   const handleSave = () => {

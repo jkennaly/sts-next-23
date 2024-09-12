@@ -5,7 +5,7 @@ import DesignExperiment from "@/app/component/sts/design/experiment/DesignExperi
 
 
 
-const page = () => {
+const Page = () => {
     return (
         <div className="flex min-h-screen">
         <LeftSideBar />
@@ -17,4 +17,4 @@ const page = () => {
     );
 };
 
-export default page;
+export default Page;

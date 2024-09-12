@@ -16,5 +16,5 @@ export const useNewGameState = () => {
         }
         dispatch(setGameState(newGameState))
         router.push('/pages/sts/overview')
-    }, [dispatch])
+    }, [dispatch, router])
 }

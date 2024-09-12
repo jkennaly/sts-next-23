@@ -7,7 +7,7 @@ import MainMenu from "../../component/sts/main-menu/MainMenu";
 
 
 
-const page = () => {
+const Page = () => {
     const [loadedState, setLoadedState] = useState({})
     const [stateLoaded, setStateLoaded] = useState(false)
     useEffect(() => {
@@ -32,4 +32,4 @@ const page = () => {
     );
 };
 
-export default page;
+export default Page;

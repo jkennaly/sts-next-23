@@ -40,7 +40,7 @@ const upsertItem = registryName =>  item => {
 	localforage.setItem(registryName, JSON.stringify(get(registryName)()))
 		.catch(err => console.error(`Registry update error for ${registryName}`, err, item))
 }
-export default function (registryName) {
+export default function Registry(registryName) {
 	return {
 		get: get(registryName),
 		getItem: getItem(registryName),

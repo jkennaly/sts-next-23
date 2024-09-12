@@ -1,16 +1,8 @@
 import Link from 'next/link';
-import ComingSoon from "../icons/ComingSoon";
-import Community from "../icons/Community";
-import Friends from "../icons/Friends";
 import Home from "../icons/Home";
-import Logout from "../icons/Logout";
 import MakeMovie from "../icons/MakeMovie";
-import Media from "../icons/Media";
-import MovieLogo from "../icons/MovieLogo";
-import Profile from "../icons/Profile";
-import Settings from "../icons/Settings";
 
-const LiftSideBar = () => {
+const LeftSideBar = () => {
   return (
     <aside className=" w-1/6 py-10 pl-10  min-w-min  border-r border-gray-300 dark:border-zinc-700  hidden md:block ">
       <Link href="/">
@@ -42,4 +34,4 @@ const LiftSideBar = () => {
   );
 };
 
-export default LiftSideBar;
+export default LeftSideBar;

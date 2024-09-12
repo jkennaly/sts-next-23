@@ -1,5 +1,5 @@
-import { useAppDispatch as useDispatch } from "@/lib/hooks";
-import { setGameState } from "@/lib/actions";
+'use client'
+
 
 import Researcher from "./store/entity/player/Researcher";
 import { Experiment } from "./store/research/Experiment";
@@ -39,13 +39,4 @@ export const updateState = (state) => {
     archive.push(JSON.stringify(newState));
     return newState;
     
-}
-
-export const startNewGame = () => {
-    console.log('starting new game')
-    const newGameState = {
-        type: 'NEW_GAME',
-        seed: seed
-    }
-    useDispatch()(setGameState(newGameState))
 }
